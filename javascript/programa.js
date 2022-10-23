@@ -62,7 +62,7 @@ const regoligo = setInterval(function time(){
   minutos.textContent = min;
   segundos.textContent = s;
   
-  var dia = ["Domingo", "Segunda-Feira", "Terça-Feira", "Quarta-Feira", "Quinta-Feira", "Sexta-Feira", "Sábado"];
+  let dia = ["Domingo", "Segunda-Feira", "Terça-Feira", "Quarta-Feira", "Quinta-Feira", "Sexta-Feira", "Sábado"];
   document.getElementById("header").innerHTML = dia[dateToday.getDay()];
 })
 
